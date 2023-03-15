@@ -1,0 +1,98 @@
+.div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    /* background-image: url("https://tse4.mm.bing.net/th/id/OIP.njhZBYvj7OhdFRGZn8Ur6wHaEo?w=286&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"); */
+    /* background-image: url("https://www.bing.com/th?id=OIP.LxWpF69cCEYYGgOF3ofBbQHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+form{
+    width: 70%;
+    height: max-content;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+input{
+   
+    margin: 0.5rem;
+    padding: 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: inherit;
+}
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+::placeholder{
+   opacity: 1;
+   /* text-indent: 0.1rem; */
+   color: black;
+   font-size: 1rem;
+}
+form{
+/*   
+    border-radius: 49px;
+
+box-shadow:  20px 20px 50px #5a5a5a
+             -20px -20px -2px grey; */
+             border-radius: 19px;
+background: inherit;
+box-shadow: inset 30px 30px 60px #6a6a6a,
+            inset -30px -30px 60px #6a6a6a;
+        
+}
+button{
+    
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+   margin-left: auto;
+   margin-right: auto;
+   cursor: pointer;
+   color: white;
+   background-color:rgb(64, 93, 230);
+   width: fit-content;
+   margin-top: 1rem;
+   padding: 0.7rem 2rem 0.7rem 2rem;
+}
+input:focus{
+    outline: none;
+}
+legend{
+    text-align: center;
+}
+img{
+    mix-blend-mode: multiply;
+}
+.nav{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(70, 68, 68, 0.851);
+    color: white;
+   
+    background: inherit;
+    box-shadow: inset 30px 30px 60px  #a4a4a4,
+                inset -30px -30px 60px #383838;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.a:hover{
+    color: blue;
+
+}

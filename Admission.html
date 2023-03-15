@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <a href="Home.html">Home</a><a href="Admission.html">Admisssion</a
+      ><a href="Acadimics.html">Acadimics</a><a href="Gallery.html">Gallery</a>
+    </div>
+    <div class="div">
+      <form>
+        <h1 style="text-align: center">Admission</h1>
+        <input
+          type="text"
+          placeholder="Enter Your Name"
+          required
+          autocomplete="off"
+        />
+        <input
+          type="text"
+          placeholder="Enter Your Father Name"
+          required
+          autocomplete="off"
+        />
+        <input
+          type="text"
+          placeholder="Enter Your Mother Name"
+          required
+          autocomplete="off"
+        />
+        <input
+          type="number"
+          placeholder="Enter Your Age"
+          required
+          autocomplete="off"
+        />
+        <input type="text" list="data" placeholder="Select the course" />
+        <datalist id="data">
+          <option value="Commerce"></option>
+          <option value="Science"></option>
+          <option value="Arts"></option>
+        </datalist>
+
+        <label style="margin-left: 1rem; margin-top: 1rem" for="photo"
+          >Upload your Pic</label
+        >
+        <input type="file" name="photo" />
+        <button>submit</button>
+      </form>
+    </div>
+  </body>
+</html>
